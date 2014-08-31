@@ -40,8 +40,8 @@ $(function() {
         'prewitt-y-switched': '[[1,1,1],[0,0,0],[-1,-1,-1]]',
         'sobel-x': '[[1,0,-1],[2,0,-2],[1,0,-1]]',
         'sobel-y': '[[1,2,1],[0,0,0],[-1,-2,-1]]',
-        'kirsh-x': '[[5,-3,-3],[5,0,-3],[5,-3,-3]]',
-        'kirsh-y': '[[5,5,5],[-3,0,-3],[-3,-3,-3]]',
+        'kirsch-x': '[[5,-3,-3],[5,0,-3],[5,-3,-3]]',
+        'kirsch-y': '[[5,5,5],[-3,0,-3],[-3,-3,-3]]',
         'laplace': '[[0,1,0],[1,-4,1],[0,1,0]]',
         'gauss': '[[2.0/159,4.0/159,5.0/159,4.0/159,2.0/159],[4.0/159,9.0/159,12.0/159,9.0/159,4.0/159],[5.0/159,12.0/159,15.0/159,12.0/159,5.0/159],[4.0/159,9.0/159,12.0/159,9.0/159,4.0/159],[2.0/159,4.0/159,5.0/159,4.0/159,2.0/159]]',
         'LoG': '[[0,0,0,-1,0,0],[0,-1,-2,-1,0,0],[-1,-2,16,-2,-1,0],[0,-1,-2,-1,0,0],[0,0,0,-1,0,0]]',
@@ -51,7 +51,7 @@ $(function() {
     var combinedMatrices = {
         'prewitt': [ JSON.parse(simpleMatrices['prewitt-x']), JSON.parse(simpleMatrices['prewitt-y']) ],
         'sobel': [ JSON.parse(simpleMatrices['sobel-x']), JSON.parse(simpleMatrices['sobel-y']) ],
-        'kirsh': [ JSON.parse(simpleMatrices['kirsh-x']), JSON.parse(simpleMatrices['kirsh-y']) ],
+        'kirsch': [ JSON.parse(simpleMatrices['kirsch-x']), JSON.parse(simpleMatrices['kirsch-y']) ],
     };
 
 
