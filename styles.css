@@ -1,0 +1,37 @@
+span.hint {
+    border-bottom:1px dotted #666;
+}
+
+table.setting {
+    margin: 5px;
+    float:left;
+}
+
+table.setting caption {
+    background-color: #e0e0e0;
+    font-weight:bold;
+}
+
+#filter {
+    display: block;
+}
+
+#usermatrix {
+    width: 500px;
+    height: 100px;
+    display: block;
+}
+
+.disabled {
+   pointer-events: none;
+   cursor: default;
+   background: #eee;
+}
+
+.invalidmatrix {
+    background: #FFE2AD;
+}
+
+video {
+    display: none;
+}

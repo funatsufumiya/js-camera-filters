@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Javascript camera filters</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+
+        Apply filter matrix:
+        <select id="filter">          
+            <optgroup label="Combined filters" id="filters-combined">
+                <option value="prewitt">Prewitt</option>
+                <option value="sobel">Sobel</option>
+                <option value="kirsh">Kirsh</option>
+            </optgroup>
+            <optgroup label="Edge detection simple matrices" id="filters-simple">
+                <option value="custom">Custom</option>
+                <option value="prewitt-x">Prewitt-x</option>
+                <option value="prewitt-y">Prewitt-y</option>
+                <option value="prewitt-y-switched">Prewitt-y * (-1)</option>
+                <option value="sobel-x">Sobel-x</option>
+                <option value="sobel-y">Sobel-y</option>
+                <option value="kirsh-x">Kirsh-x</option>
+                <option value="kirsh-y">Kirsh-y</option>
+                <option value="laplace">Laplace</option>
+                <option value="gauss">Gaussian blur</option>
+            </optgroup>
+        </select>
+        <textarea id="usermatrix" class="disabled"></textarea>
+
+        <!-- Display panes -->
+        <video autoplay id="vid"></video>
+        <canvas id="canvas" width="640" height="480"></canvas>
+
+        <!-- Javascript includes -->
+        <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="filtermatrices.js"></script>
+    </body>
+</html>
