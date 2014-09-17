@@ -22,10 +22,11 @@ You can define your own filtering matrices by entering a custom matrix in the te
 ![meh](https://raw.githubusercontent.com/michaeljakob/js-camera-filters/master/screenshots/2.png)
 
 
+* https://en.wikipedia.org/wiki/Gaussian_blur
+* https://en.wikipedia.org/wiki/Prewitt_operator
+* https://en.wikipedia.org/wiki/Sobel_operator
+* https://en.wikipedia.org/wiki/Kirsch_operator
+
+
+
 Many thanks to [Martin Thoma](http://martin-thoma.com/) from whom the idea and template originated. 
-
-
-https://en.wikipedia.org/wiki/Gaussian_blur
-https://en.wikipedia.org/wiki/Prewitt_operator
-https://en.wikipedia.org/wiki/Sobel_operator
-https://en.wikipedia.org/wiki/Kirsch_operator
