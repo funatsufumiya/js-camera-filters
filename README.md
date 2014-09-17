@@ -15,7 +15,7 @@ You can define your own filtering matrices by entering a custom matrix in the te
 
 
 # Screenshots
-## Sobel, inside
+## Prewitt, inside
 ![meh](https://raw.githubusercontent.com/michaeljakob/js-camera-filters/master/screenshots/1.png)
 
 ## Sobel, outside
