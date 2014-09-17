@@ -35,3 +35,16 @@ table.setting caption {
 video {
     display: none;
 }
+
+
+#github-forkme img {
+  position: absolute;
+  width: 150px;
+  top: 0;
+  right: 0;
+  border: 0;
+}
+
+
+
+
