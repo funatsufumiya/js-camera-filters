@@ -14,6 +14,14 @@ Supported filters are
 You can define your own filtering matrices by entering a custom matrix in the text area.
 
 
+# Screenshots
+## Sobel, inside
+![meh](https://raw.githubusercontent.com/michaeljakob/js-camera-filters/master/screenshots/1.png)
+
+## Sobel, outside
+![meh](https://raw.githubusercontent.com/michaeljakob/js-camera-filters/master/screenshots/2.png)
+
+
 Many thanks to [Martin Thoma](http://martin-thoma.com/) from whom the idea and template originated. 
 
 
