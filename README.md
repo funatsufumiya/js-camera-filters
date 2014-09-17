@@ -11,8 +11,10 @@ Supported filters are
 - Kirsh X/Y
 - LaPlace
 
-You can define your own filtering matrices as well.
+You can define your own filtering matrices by entering a custom matrix in the text area.
 
+
+Many thanks to [Martin Thoma](http://martin-thoma.com/) from whom the idea and template originated. 
 
 
 https://en.wikipedia.org/wiki/Gaussian_blur
